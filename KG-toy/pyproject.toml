@@ -1,0 +1,22 @@
+[project]
+name = "kg-toy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mgkim", email = "oab824@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipython>=9.7.0",
+    "networkx>=3.5",
+    "pandas>=2.3.3",
+    "pyvis>=0.3.2",
+]
+
+[project.scripts]
+kg-toy = "kg_toy:main"
+
+[build-system]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"

@@ -1,0 +1,6 @@
+head,relation,tail
+이정재,acted_in,오징어게임
+공유,acted_in,도깨비
+도깨비,genre,판타지
+오징어게임,genre,스릴러
+오징어게임,platform,Netflix
