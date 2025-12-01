@@ -1,0 +1,5 @@
+*.pt
+*.pickle
+*.adjlist
+12_heterogeneous/raw/
+12_heterogeneous/processed/
